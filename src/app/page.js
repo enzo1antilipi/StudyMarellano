@@ -25,33 +25,39 @@ export default function Home() {
             <div className="cuadro">
               <h3>Familia</h3>
               <p>Asesoramos en temas como divorcios, alimentos, tenencia y acuerdos familiares, ofreciendo soluciones personalizadas que priorizan el bienestar de los involucrados.</p>
-              
+              <div className="containerSeemore">
                <Link href="/practice"  className="seeMore">
                     Ver mas
                 </Link>
-                
+                </div>
             </div>
             <div className="cuadro2">
               <h3>Civil y comercial</h3>
               <p>Brindamos apoyo en contratos, transacciones comerciales y resolución de conflictos, protegiendo tus intereses y fortaleciendo la seguridad jurídica de tus proyectos.
                 </p>
+                <div className='containerSeemore'>
                   <Link href="/practice"  className="seeMore">
                     Ver mas
                 </Link>
+                </div>
             </div>
             <div className="cuadro">
               <h3>Laboral</h3>
               <p>Defendemos los derechos de trabajadores y empleadores, gestionando reclamos por despidos, indemnizaciones y conflictos laborales con profesionalismo y equidad.</p>
+                 <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
                     Ver mas
                 </Link>
+                </div>
             </div>
             <div className="cuadro2">
               <h3>Derecho inmobiliario</h3>
               <p>Te acompañamos en la gestión de bienes raíces, ofreciendo seguridad jurídica en compraventas, alquileres y sucesiones, protegiendo tu patrimonio en cada operación.</p>
+              <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
                     Ver mas
                 </Link>
+                </div>
             </div>
           </div>
         </section>

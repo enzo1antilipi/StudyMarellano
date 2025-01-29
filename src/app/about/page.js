@@ -33,16 +33,13 @@ export default function about(){
         </div>
         </div>
         <div className={styles.paragraphContainer}>
-            <p className={styles.paragraph}>Nuestra firma se mantiene al frente del asesoramiento legal en la 
-                Argentina adaptándose a las cambiantes necesidades de los clientes y de la comunidad. 
-                En nuestra vida cotidiana nos enfrentamos con situaciones que exigen tomar decisiones de orden 
-                legal. Por tal motivo debemos pensar en la importancia que tiene estar asesorado convenientemente. 
-                La permanente mejora del capital humano unida a la revisión constante de los recursos técnicos es lo 
-                que nos permite prestar un servicio responsable y de avanzada calidad. Su éxito estuvo basado tanto 
-                en sus cualidades comunes como en sus diferentes experiencias e intereses. 
-                Nuestra oficina ha continuado fortaleciendo sus prácticas profesionales activas en cuanto a asuntos reglamentarios
-                 que comprende las áreas del Derecho Laboral (Accidentes de Trabajo), del Derecho Civil (Sucesiones, Divorcios, 
-                 Accidentes de Tránsito y Exequatur – Validacion de Sentencias del Extranjero en la Argentina). La clave de nuestro crecimiento está basada en la atención personalizada de las necesidades de cada uno de nuestros clientes, a través de una actuación diligente, eficiente y confidencial. Justamente esta atención nos ha permitido la permanencia en el mercado y la posibilidad de expandir nuestro equipo, con la incorporación de nuevos y sólidos profesionales en las materias de práctica.</p>
+            <p className={styles.paragraph}>En el Estudio Marellano, nos dedicamos a brindar soluciones legales integrales con un enfoque profesional, ético y personalizado. Contamos con un equipo de abogados especializados en diversas ramas del derecho, comprometidos con la defensa de los derechos e intereses de nuestros clientes.
+
+Nuestra misión es ofrecer un servicio jurídico eficiente y accesible, asegurando acompañamiento en cada etapa del proceso legal. Nos destacamos en áreas clave como Derecho de Familia, Civil y Comercial, Laboral e Inmobiliario, proporcionando asesoramiento estratégico y representación tanto en instancias de negociación como en litigios judiciales.
+
+Creemos en la importancia de la mediación y la resolución de conflictos de manera justa y equilibrada, priorizando siempre el bienestar de las personas y la seguridad jurídica en cada caso. Trabajamos con un enfoque práctico y orientado a resultados, ayudando a nuestros clientes a tomar decisiones informadas con confianza y tranquilidad.
+
+En el Estudio Marellano, entendemos que cada situación es única, por lo que ofrecemos soluciones adaptadas a las necesidades particulares de individuos y empresas. Nuestro compromiso es proteger tus derechos y brindarte la mejor asistencia legal para que puedas avanzar con seguridad en cada aspecto de tu vida y negocio.</p>
         </div>
     </section>       
     )

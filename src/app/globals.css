@@ -36,6 +36,10 @@ body{
   color: white;
   z-index: 9999;
   max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+justify-content: space-between;
   }
 .cuadro2{
   background:#22120C ;
@@ -44,6 +48,10 @@ body{
   color: white;
   z-index: 9999;
   max-width: 250px;
+   display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
 }
 .sectionAbout{
   display: flex;
@@ -100,6 +108,8 @@ border-radius: 5px;
 }
 .seeMore{
   color: white;
+  align-self: flex-end;
+  
 }
 .datosPhotos{
   margin-left: 6%;
@@ -113,12 +123,14 @@ border-radius: 5px;
     margin-left: 5px;
 }
 .cuadro  p{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   margin-left: 5px;
+  min-height: 100px;
 }
 .cuadro2  p{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
     margin-left: 5px;
+    min-height: 100px;
 }
 
 .aboutContainer1 {
@@ -148,5 +160,6 @@ border-radius: 5px;
 .aboutContent p:first-of-type {
   font-weight: bold; /* Resaltar el primer párrafo */
 }
-
-
+.containerSeemore{
+  margin-bottom: 5%;
+}
