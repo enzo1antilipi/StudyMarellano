@@ -89,7 +89,7 @@ export default function Home() {
             <h1>Foto</h1>
           </div>
           <div className="datosPhotos">
-            <h1>Marcos arellano </h1>
+            <h1>Dr. Arellano Larrosa Marcos </h1>
             <p>Breve descripcion si es necesaria</p>
             
             <p>Numero de matricula link</p>
