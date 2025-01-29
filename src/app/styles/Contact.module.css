@@ -1,0 +1,116 @@
+.containerSection{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.cotainerInformation{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17%;
+    
+}
+.img{
+    width: 20%;
+    margin-right: 20px;
+}
+.dates{
+    margin-left: 5%;
+    width: 50%;
+    background: rgb(255, 255, 255);
+}
+.telephone h2 {
+    margin-left: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+.telephone{
+    display: flex;
+}
+.telephone h2{
+margin: 40px;
+color: rgb(0, 0, 0);
+}
+.containerMaps{
+    height: 30%;
+    
+    width: 85%;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.contactContainer {
+    width: 50%;
+  display: flex;
+  flex-direction: column; /* Alinear los botones en una columna */
+  gap: 15px; /* Espaciado entre los botones */
+  margin: 20px 0; /* Separación del resto del contenido */
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Espacio entre el ícono y el texto */
+  background-color: #4D3322; /* Verde agradable */
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+  background-color: #b08c5b;; /* Más oscuro al pasar el cursor */
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  stroke: white; /* Asegura que los íconos tengan el color blanco */
+}
+
+
+.locationContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f1ec; /* Color madera claro */
+  border-radius: 16px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 20px 0;
+}
+
+.locationCard {
+  text-align: center; /* Centrar el texto */
+  background-color: #d6c4aa; /* Color madera suave */
+  color: #3e2f1c; /* Color marrón oscuro */
+  padding: 20px 30px;
+  border-radius: 12px;
+  border: 2px solid #b59c80; /* Borde más oscuro */
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1); /* Sombra interna */
+}
+
+.city {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #3e2f1c; /* Marrón oscuro */
+  text-transform: uppercase;
+}
+
+.address {
+  font-size: 18px;
+  font-weight: 500;
+  color: #5a4632; /* Marrón intermedio */
+}
+.iconwha{
+  fill:white
+}

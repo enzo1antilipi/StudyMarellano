@@ -1,95 +1,104 @@
+import { IMAGES_MANIFEST } from "next/dist/shared/lib/constants";
 import Image from "next/image";
-import styles from "./page.module.css";
+import Link from "next/link";
+// import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div >
+      <main >
+        
+        
+         <section className="containerImgHome">
+          <Image
+           className="imgLogo"
+            src="/ley3.png"
+            alt=""
+            width={2000}
+            height={2000}
+            priority
+          />
+        </section>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
+        <section className="SectionPractice">
+          <div className="containerPractice">
+            <div className="cuadro">
+              <h3>Familia</h3>
+              <p>Asesoramos en temas como divorcios, alimentos, tenencia y acuerdos familiares, ofreciendo soluciones personalizadas que priorizan el bienestar de los involucrados.</p>
+              
+               <Link href="/practice"  className="seeMore">
+                    Ver mas
+                </Link>
+                
+            </div>
+            <div className="cuadro2">
+              <h3>Civil y comercial</h3>
+              <p>Brindamos apoyo en contratos, transacciones comerciales y resolución de conflictos, protegiendo tus intereses y fortaleciendo la seguridad jurídica de tus proyectos.
+                </p>
+                  <Link href="/practice"  className="seeMore">
+                    Ver mas
+                </Link>
+            </div>
+            <div className="cuadro">
+              <h3>Laboral</h3>
+              <p>Defendemos los derechos de trabajadores y empleadores, gestionando reclamos por despidos, indemnizaciones y conflictos laborales con profesionalismo y equidad.</p>
+              <Link href="/practice"  className="seeMore">
+                    Ver mas
+                </Link>
+            </div>
+            <div className="cuadro2">
+              <h3>Derecho inmobiliario</h3>
+              <p>Te acompañamos en la gestión de bienes raíces, ofreciendo seguridad jurídica en compraventas, alquileres y sucesiones, protegiendo tu patrimonio en cada operación.</p>
+              <Link href="/practice"  className="seeMore">
+                    Ver mas
+                </Link>
+            </div>
+          </div>
+        </section>
+
+        <section className="sectionAbout">
+          <div className="aboutContainer1">
+          <h2 className="titleabout">Sobre Nosotros</h2>
+           <p>
+      Somos una firma legal comprometida con brindar asesoramiento de calidad, adaptándonos a las necesidades cambiantes de nuestros clientes y la comunidad. 
+    </p>
+    <p>
+      Nos especializamos en Derecho Laboral, Civil y la validación de sentencias extranjeras, ofreciendo soluciones personalizadas, eficientes y confidenciales. 
+    </p>
+    <p>
+      Nuestro enfoque en el crecimiento humano y técnico nos permite garantizar un servicio responsable y de avanzada.
+    </p>
+          </div>
+          <div className="aboutContainer2">
+            {/* imagen */}
+               <Image
+                  className="imgAbout"
+                  src="/ley1.jpg"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  priority
+                />
+          </div>
+        </section>
+
+        <section className="sectionAbout">
+          <div className="containerImgAbout">
+             <div className="containerDescriptionAbout">
+            {/* descripcion  */}
+            <h1>Foto</h1>
+          </div>
+          <div className="datosPhotos">
+            <h1>Marcos arellano </h1>
+            <p>Breve descripcion si es necesaria</p>
+            
+            <p>Numero de matricula link</p>
+          </div>
+            {/* imagen */}
+          </div>
+
+        </section>
       </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }

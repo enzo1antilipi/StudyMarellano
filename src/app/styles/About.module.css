@@ -1,0 +1,56 @@
+
+.imgContainer{
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    margin-top: 90px;
+    display: flex;
+}
+.paragraphContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    margin-top: 20px;
+}
+.img{
+    height: 50vh;
+    width: 50%;
+
+
+}
+.imgLogo{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.paragraph{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paragraphContainer {
+  display: flex; /* Para usar alineaciones en el contenedor */
+  justify-content: flex-start; /* Alinear el contenido al inicio */
+  align-items: center;
+  padding: 20px; /* Espaciado interno */
+  border-left: 4px solid #333; /* Línea vertical (color y grosor) */
+  background-color: #f9f9f9; /* Fondo opcional */
+}
+
+.paragraph {
+  margin: 0; /* Quitar márgenes predeterminados */
+  padding-left: 10px; /* Separar el texto de la línea */
+  color: #333; /* Color del texto */
+  font-size: 16px; /* Tamaño del texto */
+  line-height: 1.6; /* Espaciado entre líneas */
+}
