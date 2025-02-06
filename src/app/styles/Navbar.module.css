@@ -25,19 +25,103 @@
   padding: 0;
 }
 
-.navLinks li {
-  margin: 0 15px;
-}
+
 
 .navLink {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   transition: color 0.3s ease;
   font-family: Arial, Helvetica, sans-serif;
+  margin-right: 40px;
 }
 
 .navLink:hover {
+  color: #4764b3;
+}
+
+.dropdownMenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #444;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  z-index: 10;
+}
+
+.dropdownMenu .dropdownLink {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0;
+}
+
+.dropdownMenu .dropdownLink:hover {
   color: #0f715c;
+}
+
+/* Mostrar el menú al pasar el mouse */
+.dropdown:hover .dropdownMenu {
+  display: block;
+}
+.logo_white{
+  margin-right: 50px;
+}
+.hamburger{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .hamburger{
+    display: block;
+  }
+  .navbar{
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 0px;
+    background: none;
+  }
+  .dropdownMenu{
+    width: 100%;
+  }
+  .hamburger {
+    display: block;
+    margin-left: 80%;
+  }
+
+  .navLinks_container {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 50px; /* Adjust based on your navbar height */
+    left: 0;
+    background-color: #4d4338a5;
+    padding: 20px;
+    z-index: 1000;
+    width: 100%;
+  }
+
+  .navLinks_container.show {
+    display: flex;
+  }
+  .navLink {
+    padding: 10px ;
+    margin-left: 33%;
+  }
+  .dropdown{
+    margin-left: 35%;
+    
+  }
+  
+  .dropdownLink {
+    padding: 10px 0;
+    width: 100%; /* Asegura que ocupen todo el ancho */
+    text-align: left; /* Alinea el texto de los enlaces internos */
+    color: white;
+    text-decoration: none;
+  }
+
 }

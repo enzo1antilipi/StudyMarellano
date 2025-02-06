@@ -126,11 +126,14 @@ border-radius: 5px;
   font-family: 'Times New Roman', Times, serif;
   margin-left: 5px;
   min-height: 100px;
+  color: rgb(219, 219, 219);
 }
 .cuadro2  p{
   font-family: 'Times New Roman', Times, serif;
-    margin-left: 5px;
-    min-height: 100px;
+  margin-left: 5px;
+  min-height: 100px;
+  color: rgb(219, 219, 219);
+
 }
 
 .aboutContainer1 {
@@ -162,4 +165,94 @@ border-radius: 5px;
 }
 .containerSeemore{
   margin-bottom: 5%;
+}
+.mobile-version{
+  display: none;
+}
+/* mobile */
+
+
+@media (max-width: 768px) {
+  .mobile-version{
+    display: block;
+  }
+  .containerPractice{
+    display: none;
+  }
+  .containerPracticeMobile {
+    grid-template-columns: repeat(2, 1fr); /* 1 columna en mobile */
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    margin-top: 0px;
+    z-index: 999;
+  }
+  .containerImgHome{
+  height: 25vh;
+  z-index: 12;
+}
+.imgLogo{
+  z-index: 12;
+}
+.container1 {
+  z-index: 999;
+  
+}
+.cuadro {
+  height: 140px;
+  margin: 0%;
+  max-width: none;
+}
+.cuadro2{
+  height: 140px;
+  margin: 0%;
+  max-width: none;
+}
+.cuadro  p{
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 5px;
+  min-height: 10px;
+  color: rgb(219, 219, 219);
+  margin-top: -10px;
+}
+.cuadro2 p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 5px;
+  min-height: 10px;
+  color: rgb(219, 219, 219);
+  margin-top: -10px;
+
+ }
+}
+/* MEDIA QUERY PARA MOBILE */
+@media (max-width: 768px) {
+  .sectionAbout {
+    flex-direction: column; /* Cambia a columna en mobile */
+    text-align: center;
+  }
+
+  .aboutContainer2 {
+    order: -1; /* Mueve la imagen arriba */
+  }
+  .aboutContainer2{
+    width: 100%;
+    max-width: none;
+  }
+  .aboutContainer1{
+    max-width: none;
+  }
+  .imgAbout{
+    width: 100%;
+    max-width: none;
+  }
+  .sectionAboutAbogado{
+    display: flex;
+  width: 80%;
+  margin: auto;  
+  height: 150px;
+  margin-top: 280px;
+  box-shadow: #171717;
+  }
 }

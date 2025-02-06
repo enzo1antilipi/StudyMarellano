@@ -29,12 +29,12 @@
     
 
 }
-.titleSection{
+.titleSectionDesktop{
     background: #4D3322;
     color: white;
     padding: 10px;
     border-radius: 5px;
-    width: 200px;
+    width: 250px;
     text-align: center;
 }
 .container{
@@ -176,4 +176,45 @@ width: 90%;
 
 .iconw{
     fill: white;
+}
+@media (max-width: 768px) {
+  .containerContact{
+    display: none;
+  }
+  .titleSectionDesktop{
+    display: none;
+  }
+  .backgroundLogo{
+    display: none;
+  }
+.backgroundLogoMobil{
+    background: #4D3322;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 30px;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenendorMobil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }  
+
+  .titleSectionMobil{
+    background: #4D3322;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+  }
+  .containerParagraph{
+    margin: auto;
+    width: 90%;
+  }
+  
 }

@@ -54,3 +54,22 @@
   font-size: 16px; /* Tamaño del texto */
   line-height: 1.6; /* Espaciado entre líneas */
 }
+@media (max-width: 768px) {
+    .imgContainer {
+        flex-direction: column; /* Imagen arriba, texto abajo */
+        text-align: center;
+        width: 100%;
+        margin-top: 2px;
+    }
+
+    .description {
+        width: 100%;
+    }
+    .img{
+        width: 80%;
+        margin: auto;
+    }
+    .paragraphContainer{
+        margin-top: 80px;
+    }
+}

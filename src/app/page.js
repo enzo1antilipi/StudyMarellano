@@ -22,6 +22,7 @@ export default function Home() {
 
         <section className="SectionPractice">
           <div className="containerPractice">
+            
             <div className="cuadro">
               <h3>Familia</h3>
               <p>Asesoramos en temas como divorcios, alimentos, tenencia y acuerdos familiares, ofreciendo soluciones personalizadas que priorizan el bienestar de los involucrados.</p>
@@ -41,6 +42,8 @@ export default function Home() {
                 </Link>
                 </div>
             </div>
+
+            
             <div className="cuadro">
               <h3>Laboral</h3>
               <p>Defendemos los derechos de trabajadores y empleadores, gestionando reclamos por despidos, indemnizaciones y conflictos laborales con profesionalismo y equidad.</p>
@@ -59,6 +62,52 @@ export default function Home() {
                 </Link>
                 </div>
             </div>
+          </div>
+      {/* mobile version */}
+          <div className="mobile-version">
+    <div className="containerPracticeMobile">
+            <div className="container1">
+            <div className="cuadro">
+              <h3>Familia</h3>
+              <p>Asesoramos en temas como divorcios, alimentos, tenencia y acuerdos familiares, ofreciendo...</p>
+              <div className="containerSeemore">
+               <Link href="/practice"  className="seeMore">
+                    Ver mas
+                </Link>
+                </div>
+            </div>
+            <div className="cuadro2">
+              <h3>Civil y comercial</h3>
+              <p>Brindamos apoyo en contratos, transacciones comerciales y resolución de conflictos...
+                </p>
+                <div className='containerSeemore'>
+                  <Link href="/practice"  className="seeMore">
+                    Ver mas
+                </Link>
+                </div>
+            </div>
+            {/* </div>
+            <div className="container2"> */}
+            <div className="cuadro">
+              <h3>Laboral</h3>
+              <p>Defendemos los derechos de trabajadores y empleadores, gestionando reclamos por...</p>
+                 <div className="containerSeemore">
+              <Link href="/practice"  className="seeMore">
+                    Ver mas
+                </Link>
+                </div>
+            </div>
+            <div className="cuadro2">
+              <h3>Derecho inmobiliario</h3>
+              <p>Te acompañamos en la gestión de bienes raíces, ofreciendo seguridad jurídica en...</p>
+              <div className="containerSeemore">
+              <Link href="/practice"  className="seeMore">
+                    Ver mas
+                </Link>
+                </div>
+            </div>
+            </div>
+          </div>
           </div>
         </section>
 
@@ -88,7 +137,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="sectionAbout">
+        <section className="sectionAboutAbogado">
           <div className="containerImgAbout">
              <div className="containerDescriptionAbout">
             {/* descripcion  */}

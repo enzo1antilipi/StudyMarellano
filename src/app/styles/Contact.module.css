@@ -12,7 +12,7 @@
     align-items: center;
     margin-top: 17%;
     
-}
+}z
 .img{
     width: 20%;
     margin-right: 20px;
@@ -114,3 +114,24 @@ color: rgb(0, 0, 0);
 .iconwha{
   fill:white
 }
+@media (max-width: 768px) {
+  .img{
+   display: none; 
+  }
+  .dates{
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .dates h1{
+    margin-left: 15%;
+  }
+  .contactContainer{
+    margin: auto;
+  }
+  .containerMaps{
+    margin-top: 100%;
+  }
+}
+

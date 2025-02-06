@@ -16,7 +16,13 @@ export default function practice(){
                 </div>
            
             <div className={styles.container}>
-            <h1 className={styles.titleSection}>Familia</h1>
+                <div className={styles.contenendorMobil}>
+                    <div className={styles.backgroundLogoMobil}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" className={styles.svg} viewBox="0 0 24 24"><g fill=""><path d="M13 4.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0"/><path fillRule="evenodd" d="M16.196 12.48a1 1 0 0 1-1.177-.784c-.17-.85-.629-1.227-1.23-1.442a3 3 0 0 0-.289-.088V20.93a1.071 1.071 0 0 1-2.131.151L10.643 16h-.286l-.726 5.08a1.071 1.071 0 0 1-2.131-.15V15a3.5 3.5 0 1 1 0-7H12v.002c.702.01 1.617.067 2.461.369c1.149.41 2.19 1.283 2.52 2.933a1 1 0 0 1-.785 1.177M7.5 10a1.5 1.5 0 0 0 0 3z" clipRule="evenodd"/><path d="M17 14.4c0-.223.087-.365.213-.466a.9.9 0 0 1 .537-.184c.187 0 .392.067.537.184a.56.56 0 0 1 .213.466V21a.75.75 0 0 0 1.5 0v-6.6c0-.71-.32-1.269-.771-1.634a2.4 2.4 0 0 0-1.479-.516c-.5 0-1.045.166-1.479.516A2.06 2.06 0 0 0 15.5 14.4a.75.75 0 0 0 1.5 0"/></g></svg>
+                    </div>
+                    <h1 className={styles.titleSectionMobil}>Familia</h1>
+                </div>
+            <h1 className={styles.titleSectionDesktop}>Familia</h1>
             <div className={styles.contenedorparrafo}>
                 <p className={styles.paragraph}>En el Estudio Marellano, comprendemos la importancia de brindar apoyo en los momentos más delicados que afectan a las familias. Ofrecemos asesoramiento integral en cuestiones como divorcios, regímenes de comunicación, acuerdos de alimentos y tenencia. Nuestro objetivo es garantizar soluciones justas y equilibradas que prioricen el bienestar de todas las partes, especialmente de los menores involucrados.
                 <br></br>
@@ -29,7 +35,13 @@ export default function practice(){
                     <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" className={styles.svg} viewBox="0 0 20 20"><path fill="" d="M9.988.4q4.036 0 6.825 2.784Q19.599 5.968 19.6 10c.001 4.032-.913 4.936-2.74 6.744Q13.952 19.6 9.988 19.6q-3.917 0-6.753-2.832Q.4 13.936.4 10c0-3.936.945-4.896 2.835-6.816Q6 .4 9.988.4M2.56 7.421Q2.13 8.636 2.13 10q0 3.192 2.33 5.52q2.332 2.328 5.552 2.328c3.22 0 4.013-.784 5.599-2.352a7.4 7.4 0 0 0 1.311-1.68l-3.618-1.611c-.246 1.217-1.331 2.04-2.643 2.137v1.48H9.559v-1.48c-1.077-.013-2.118-.453-2.914-1.15l1.322-1.333c.637.6 1.274.869 2.143.869c.563 0 1.188-.22 1.188-.955c0-.26-.1-.44-.26-.577l-.915-.407l-1.14-.507c-.563-.252-1.04-.464-1.52-.677L2.56 7.42zm7.452-5.293q-3.268 0-5.527 2.304q-.614.62-1.07 1.297l3.67 1.633c.332-1.017 1.3-1.635 2.474-1.704v-1.48h1.102v1.48a4.14 4.14 0 0 1 2.412.88l-1.26 1.297c-.466-.33-1.054-.563-1.642-.563c-.477 0-1.15.148-1.15.747q.001.137.085.243l1.228.547l.83.37l1.542.686l4.92 2.19q.243-.967.244-2.055q0-3.288-2.307-5.568q-2.283-2.304-5.551-2.304"/></svg>
                 </div>
              <div className={styles.container}>
-             <h1 className={styles.titleSection}>Civil y comercial</h1>
+                   <div className={styles.contenendorMobil}>
+                    <div className={styles.backgroundLogoMobil}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" className={styles.svg} viewBox="0 0 20 20"><path fill="" d="M9.988.4q4.036 0 6.825 2.784Q19.599 5.968 19.6 10c.001 4.032-.913 4.936-2.74 6.744Q13.952 19.6 9.988 19.6q-3.917 0-6.753-2.832Q.4 13.936.4 10c0-3.936.945-4.896 2.835-6.816Q6 .4 9.988.4M2.56 7.421Q2.13 8.636 2.13 10q0 3.192 2.33 5.52q2.332 2.328 5.552 2.328c3.22 0 4.013-.784 5.599-2.352a7.4 7.4 0 0 0 1.311-1.68l-3.618-1.611c-.246 1.217-1.331 2.04-2.643 2.137v1.48H9.559v-1.48c-1.077-.013-2.118-.453-2.914-1.15l1.322-1.333c.637.6 1.274.869 2.143.869c.563 0 1.188-.22 1.188-.955c0-.26-.1-.44-.26-.577l-.915-.407l-1.14-.507c-.563-.252-1.04-.464-1.52-.677L2.56 7.42zm7.452-5.293q-3.268 0-5.527 2.304q-.614.62-1.07 1.297l3.67 1.633c.332-1.017 1.3-1.635 2.474-1.704v-1.48h1.102v1.48a4.14 4.14 0 0 1 2.412.88l-1.26 1.297c-.466-.33-1.054-.563-1.642-.563c-.477 0-1.15.148-1.15.747q.001.137.085.243l1.228.547l.83.37l1.542.686l4.92 2.19q.243-.967.244-2.055q0-3.288-2.307-5.568q-2.283-2.304-5.551-2.304"/></svg>
+                    </div>
+                    <h1 className={styles.titleSectionMobil}>Civil y comercial</h1>
+                </div>
+             <h1 className={styles.titleSectionDesktop}>Civil y comercial</h1>
                
                 <div className={styles.contenedorparrafo}>
             <p className={styles.paragraph}>El Estudio Marellano cuenta con una amplia experiencia en el área civil y comercial, ofreciendo soluciones legales adaptadas a las necesidades tanto de individuos como de empresas. Asistimos en la redacción y revisión de contratos, resolución de conflictos comerciales y reclamaciones por daños y perjuicios. 
@@ -46,7 +58,14 @@ export default function practice(){
             </div>
              
              <div className={styles.container}>
-           <h1 className={styles.titleSection}>Laboral</h1>
+                   <div className={styles.contenendorMobil}>
+                    <div className={styles.backgroundLogoMobil}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" className={styles.svg} viewBox="0 0 24 24"><path fill="" d="M12 15c-4.42 0-8 1.79-8 4v2h16v-2c0-2.21-3.58-4-8-4M8 9a4 4 0 0 0 4 4a4 4 0 0 0 4-4m-4.5-7c-.3 0-.5.21-.5.5v3h-1V3s-2.25.86-2.25 3.75c0 0-.75.14-.75 1.25h10c-.05-1.11-.75-1.25-.75-1.25C16.25 3.86 14 3 14 3v2.5h-1v-3c0-.29-.19-.5-.5-.5z"/></svg>
+
+                    </div>
+                    <h1 className={styles.titleSectionMobil}>Laboral</h1>
+                </div>
+           <h1 className={styles.titleSectionDesktop}>Laboral</h1>
            <div className={styles.contenedorparrafo}> 
             <p className={styles.paragraph}>En el campo del Derecho Laboral, en el Estudio Marellano representamos tanto a trabajadores como a empleadores en la resolución de conflictos laborales. Ofrecemos asistencia en reclamos por despidos, indemnizaciones, accidentes laborales y conflictos sindicales, garantizando un trato justo y respetando los derechos de ambas partes.
 
@@ -61,7 +80,13 @@ export default function practice(){
                 <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" className={styles.svg} viewBox="0 0 24 24"><path fill="" d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"/></svg>
             </div> 
             <div className={styles.container}>
-                <h1 className={styles.titleSection}>Derecho inmobiliario</h1>
+                   <div className={styles.contenendorMobil}>
+                    <div className={styles.backgroundLogoMobil}>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" className={styles.svg} viewBox="0 0 24 24"><path fill="" d="M18 15h-2v2h2m0-6h-2v2h2m2 6h-8v-2h2v-2h-2v-2h2v-2h-2V9h8M10 7H8V5h2m0 6H8V9h2m0 6H8v-2h2m0 6H8v-2h2M6 7H4V5h2m0 6H4V9h2m0 6H4v-2h2m0 6H4v-2h2m6-10V3H2v18h20V7z"/></svg>
+                    </div>
+                    <h1 className={styles.titleSectionMobil}>Familia</h1>
+                </div>
+                <h1 className={styles.titleSectionDesktop}>Derecho inmobiliario</h1>
             <div className={styles.contenedorparrafo}>
             <p className={styles.paragraph}>En el Estudio Marellano, contamos con especialistas en Derecho Inmobiliario para asesorarte en la gestión y protección de tus bienes raíces. Ofrecemos servicios que incluyen la redacción y análisis de contratos de compraventa, alquileres, sucesiones y conflictos relacionados con la propiedad.
 

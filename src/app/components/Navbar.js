@@ -1,14 +1,53 @@
+'use client'
+
 import Link from "next/link"
 import styles from "../styles/Navbar.module.css"
-export default function Navbar(){
+import {useState,useEffect} from "react"
 
+
+export default function Navbar(){
+const [isMenuOpen,setIsMenuOpen]= useState (false)
+
+const toggleMenu=()=>{
+    setIsMenuOpen(!isMenuOpen)
+}
+
+  const closeMenu = (event) => {
+        if (!event.target.closest(`.${styles.navbar}`)) {
+            setIsMenuOpen(false);
+        }
+    };
+  const handleLinkClick = () => {
+    setIsMenuOpen(false); // Cierra el menú cuando se hace clic en una opción
+  };
+
+    useEffect(() => {
+        if (isMenuOpen) {
+            document.addEventListener('click', closeMenu);
+        } else {
+            document.removeEventListener('click', closeMenu);
+        }
+
+        return () => {
+            document.removeEventListener('click', closeMenu);
+        };
+    }, [isMenuOpen]);
 
 
     return(
        
         <nav className={styles.navbar}>
-            <ul className={styles.navLinks}>
-                 <li>
+            {/* <ul className={styles.navLinks}> */}
+                <button className={styles.hamburger} onClick={toggleMenu} aria-label="Toggle menu">
+                    ☰
+                </button>
+                 <div className={`${styles.navLinks_container}  ${isMenuOpen ? styles.show : ""}`}>
+            <Link className={styles.navLink} href="/"  onClick={handleLinkClick}>INICIO</Link>
+            <Link className={styles.navLink} href="/practice"  onClick={handleLinkClick}>AREAS DE PRACTICA</Link>
+            <Link className={styles.navLink} href="/about" onClick={handleLinkClick}>NOSOTROS</Link>
+            <Link className={styles.navLink} href="/contact" onClick={handleLinkClick}>CONTACTO</Link>
+            </div>
+                 {/* <li>
                 <Link href="/" className={styles.navLink}>
                     Inicio
                 </Link>
@@ -29,7 +68,7 @@ export default function Navbar(){
                     Contacto
                 </Link>
                 </li>
-            </ul>
+            </ul> */}
         </nav>
     )
 }
