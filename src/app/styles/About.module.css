@@ -68,8 +68,9 @@
     .img{
         width: 80%;
         margin: auto;
+        margin-top: -10px;
     }
     .paragraphContainer{
-        margin-top: 80px;
+        margin-top: 90px;
     }
 }

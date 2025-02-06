@@ -123,6 +123,7 @@ export default function Home() {
     <p>
       Nuestro enfoque en el crecimiento humano y técnico nos permite garantizar un servicio responsable y de avanzada.
     </p>
+    
           </div>
           <div className="aboutContainer2">
             {/* imagen */}

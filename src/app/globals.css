@@ -242,6 +242,7 @@ border-radius: 5px;
   }
   .aboutContainer1{
     max-width: none;
+    height: auto;
   }
   .imgAbout{
     width: 100%;
@@ -252,7 +253,7 @@ border-radius: 5px;
   width: 80%;
   margin: auto;  
   height: 150px;
-  margin-top: 280px;
+  margin-top: 300px;
   box-shadow: #171717;
   }
 }
