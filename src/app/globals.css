@@ -181,7 +181,7 @@ border-radius: 5px;
   }
   .containerPracticeMobile {
     grid-template-columns: repeat(2, 1fr); /* 1 columna en mobile */
-    width: 70%;
+    width: 75%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -204,26 +204,32 @@ border-radius: 5px;
   height: 140px;
   margin: 0%;
   max-width: none;
+  border-radius: 8px;
 }
 .cuadro2{
   height: 140px;
   margin: 0%;
   max-width: none;
+  margin-top: 5px;
+  border-radius: 8px;
 }
 .cuadro  p{
   font-family: 'Times New Roman', Times, serif;
-  margin-left: 5px;
+  margin-left: 10px;
   min-height: 10px;
   color: rgb(219, 219, 219);
   margin-top: -10px;
 }
 .cuadro2 p{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 5px;
+  margin-left: 10px;
   min-height: 10px;
   color: rgb(219, 219, 219);
   margin-top: -10px;
 
+ }
+ .seeMore{
+  margin-left: 10px;
  }
 }
 /* MEDIA QUERY PARA MOBILE */
@@ -250,10 +256,10 @@ border-radius: 5px;
   }
   .sectionAboutAbogado{
     display: flex;
-  width: 80%;
-  margin: auto;  
-  height: 150px;
-  margin-top: 300px;
-  box-shadow: #171717;
+    width: 80%;
+    margin: auto;  
+    height: 150px;
+    margin-top: 350px;
+    box-shadow: #171717;
   }
 }

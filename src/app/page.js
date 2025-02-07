@@ -88,7 +88,7 @@ export default function Home() {
             </div>
             {/* </div>
             <div className="container2"> */}
-            <div className="cuadro">
+            <div className="cuadro" style={{marginTop:"5px"}}>
               <h3>Laboral</h3>
               <p>Defendemos los derechos de trabajadores y empleadores, gestionando reclamos por...</p>
                  <div className="containerSeemore">
