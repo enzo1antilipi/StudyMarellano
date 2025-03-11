@@ -62,6 +62,15 @@ export default function Home() {
                 </Link>
                 </div>
             </div>
+            <div className="cuadro">
+              <h3>Derecho sucesorio</h3>
+              <p>Asesoramos y gestionamos sucesiones, herencias y testamentos, asegurando una distribución justa del patrimonio con transparencia y seguridad jurídica.</p>
+                 <div className="containerSeemore">
+              <Link href="/practice"  className="seeMore">
+                    Ver mas
+                </Link>
+                </div>
+            </div>
           </div>
       {/* mobile version */}
           <div className="mobile-version">
