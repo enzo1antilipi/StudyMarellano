@@ -85,7 +85,7 @@ export default function Home() {
           <div className="mobile-version">
     <div className="containerPracticeMobile">
             <div className="container1">
-            <div className="cuadro">
+            <div className="cuadro" style={{marginTop:"5px"}}>
               <h3>Familia</h3>
               <p>Asesoramos en temas como divorcios, alimentos, tenencia y acuerdos familiares, ofreciendo...</p>
               <div className="containerSeemore">
