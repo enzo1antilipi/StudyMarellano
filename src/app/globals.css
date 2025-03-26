@@ -152,6 +152,9 @@ border-radius: 5px;
   color: #8a5a44; /* Un tono marrón cálido */
   margin-bottom: 1rem;
 }
+.paragrphAbout{
+  text-align: start;
+}
 
 .aboutContent p {
   font-size: 1rem;

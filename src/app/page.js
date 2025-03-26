@@ -123,16 +123,18 @@ export default function Home() {
         <section className="sectionAbout">
           <div className="aboutContainer1">
           <h2 className="titleabout">Sobre Nosotros</h2>
+          <div className="paragrphAbout">
            <p>
-      Somos una firma legal comprometida con brindar asesoramiento de calidad, adaptándonos a las necesidades cambiantes de nuestros clientes y la comunidad. 
-    </p>
-    <p>
-      Nos especializamos en Derecho Laboral, Civil y la validación de sentencias extranjeras, ofreciendo soluciones personalizadas, eficientes y confidenciales. 
-    </p>
-    <p>
-      Nuestro enfoque en el crecimiento humano y técnico nos permite garantizar un servicio responsable y de avanzada.
-    </p>
-    
+              Somos una firma legal comprometida con brindar asesoramiento de calidad, adaptándonos a las necesidades cambiantes de nuestros clientes y la comunidad. 
+            </p>
+            <p>
+              Nos especializamos en Derecho Laboral, Civil y la validación de sentencias extranjeras, ofreciendo soluciones personalizadas, eficientes y confidenciales. 
+            </p>
+            <p>
+              Nuestro enfoque en el crecimiento humano y técnico nos permite garantizar un servicio responsable y de avanzada...
+            </p>
+            <p>Ver mas </p>
+    </div>
           </div>
           <div className="aboutContainer2">
             {/* imagen */}

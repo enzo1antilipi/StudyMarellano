@@ -56,7 +56,7 @@ export default function contact(){
          <div className={styles.containerMaps}>
                   <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2929.058727709174!2d-65.03900112467815!3d-42.765963232953645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbe024a9cde70a9f7%3A0xb725feeb21d886ad!2sBartolom%C3%A9%20Mitre%20150%2C%20U9120%20Puerto%20Madryn%2C%20Chubut!5e0!3m2!1ses!2sar!4v1736437991135!5m2!1ses!2sar"
-              width="100%"
+              width="90%"
               height="100%"
               style={{ borderRadius: "10px"}}
               allowFullScreen

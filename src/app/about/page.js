@@ -18,7 +18,7 @@ export default function about(){
         <div className={styles.imgContainer}>
             <div className={styles.description}>
                 <h1 className={italianno.className} style={{fontSize:"55px"}}>Quienes somos?</h1>
-                <h1 className={inter.className} style={{fontSize:"50px", color:"#512D16", marginTop:"-25px"}}>Estudio Marellanos</h1>
+                <h1 className={inter.className} style={{fontSize:"50px", color:"#512D16", marginTop:"-25px"}}>Estudio Marellanos <br/> y Asociados</h1>
                 {/* <h2>especializado en Familia,asdasd,asdfasdf,asdf</h2> */}
             </div>
           <div className={styles.img}>

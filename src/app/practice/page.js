@@ -24,9 +24,8 @@ export default function practice(){
                 </div>
             <h1 className={styles.titleSectionDesktop}>Familia</h1>
             <div className={styles.contenedorparrafo}>
-                <p className={styles.paragraph}>En el Estudio Marellano, comprendemos la importancia de brindar apoyo en los momentos más delicados que afectan a las familias. Ofrecemos asesoramiento integral en cuestiones como divorcios, regímenes de comunicación, acuerdos de alimentos y tenencia. Nuestro objetivo es garantizar soluciones justas y equilibradas que prioricen el bienestar de todas las partes, especialmente de los menores involucrados.
-                <br></br>
-                 Nos enfocamos en mediar y resolver conflictos de manera eficiente, evitando litigios innecesarios siempre que sea posible. Sabemos que cada familia es única, y por eso trabajamos de manera personalizada para proteger tus derechos y los de tus seres queridos en cada etapa del proceso legal.</p>
+                <p className={styles.paragraph}>En el Estudio Marellano, comprendemos la importancia de brindar apoyo en los momentos más delicados que afectan a las familias. Ofrecemos asesoramiento integral en cuestiones tales como divorcios, uniones convivenciales, filiaciones, adopciones, regímenes de comunicación, alimentos y todas las cuestiones derivadas de la responsabilidad parental. Nuestro objetivo es garantizar soluciones justas y equilibradas que prioricen el bienestar de todas las partes, especialmente priorizando el interés superior del niño, niña o adolescente.
+Nos enfocamos en mediar y resolver conflictos de manera eficiente, evitando litigios innecesarios siempre que sea posible. Sabemos que cada familia es única, y por eso trabajamos de manera personalizada para proteger tus derechos y los de tus seres queridos en cada etapa del proceso legal.</p>
            </div>
             </div>
         </div>
@@ -44,10 +43,8 @@ export default function practice(){
              <h1 className={styles.titleSectionDesktop}>Civil y comercial</h1>
                
                 <div className={styles.contenedorparrafo}>
-            <p className={styles.paragraph}>El Estudio Marellano cuenta con una amplia experiencia en el área civil y comercial, ofreciendo soluciones legales adaptadas a las necesidades tanto de individuos como de empresas. Asistimos en la redacción y revisión de contratos, resolución de conflictos comerciales y reclamaciones por daños y perjuicios. 
-                <br></br>Nuestro equipo se dedica a proteger tus intereses en todas las transacciones y litigios.
-
-                Además, brindamos asesoramiento estratégico para prevenir futuros inconvenientes legales, fortaleciendo la seguridad jurídica de tu patrimonio y tus negocios. Estamos comprometidos con ofrecer un enfoque práctico y eficiente que te permita avanzar con confianza en tus proyectos.
+            <p className={styles.paragraph}> El Estudio Marellano cuenta con una amplia experiencia en el área civil y comercial, ofreciendo soluciones legales adaptadas a las necesidades tanto de individuos como de empresas. Asistimos en la redacción y revisión de contratos, resolución de conflictos comerciales, defensa de consumidor y reclamaciones por daños y perjuicios.
+                Nuestro equipo se dedica a proteger tus intereses en todas las transacciones y litigios. Además, brindamos asesoramiento estratégico para prevenir futuros inconvenientes legales, fortaleciendo la seguridad jurídica de tu patrimonio y tus negocios. Estamos comprometidos con ofrecer un enfoque práctico y eficiente que te permita avanzar con confianza en tus proyectos.
             </p>
             </div>
             </div>
@@ -67,9 +64,7 @@ export default function practice(){
                 </div>
            <h1 className={styles.titleSectionDesktop}>Laboral</h1>
            <div className={styles.contenedorparrafo}> 
-            <p className={styles.paragraph}>En el campo del Derecho Laboral, en el Estudio Marellano representamos tanto a trabajadores como a empleadores en la resolución de conflictos laborales. Ofrecemos asistencia en reclamos por despidos, indemnizaciones, accidentes laborales y conflictos sindicales, garantizando un trato justo y respetando los derechos de ambas partes.
-
-                Trabajamos para alcanzar acuerdos equitativos que eviten largas disputas judiciales, aunque también estamos preparados para defender tus intereses en tribunales si fuera necesario. Nuestro compromiso es asegurar que tus derechos laborales estén protegidos en todo momento.
+            <p className={styles.paragraph}> En el campo del Derecho Laboral, en el Estudio Marellano representamos tanto a trabajadores como a empleadores en la resolución de conflictos laborales. Ofrecemos asistencia en reclamos por despidos, indemnizaciones, accidentes de trabajo, enfermedades profesionales y conflictos sindicales, siempre garantizando un trato justo y respetando los derechos de ambas partes. Trabajamos para alcanzar acuerdos equitativos que eviten largas disputas judiciales, aunque también estamos preparados para defender tus intereses en tribunales si fuera necesario. Nuestro compromiso es asegurar que tus derechos laborales estén protegidos en todo momento.
 
                 </p>
             </div>
@@ -110,9 +105,9 @@ export default function practice(){
                 </div>
                 <h1 className={styles.titleSectionDesktop}>Derecho sucesorio</h1>
             <div className={styles.contenedorparrafo}>
-            <p className={styles.paragraph}> En el Estudio Marellano, contamos con especialistas en Derecho Sucesorio para asesorarte en la planificación y gestión de herencias. Brindamos asistencia en la redacción de testamentos, declaratorias de herederos y partición de bienes, garantizando una transmisión patrimonial justa y segura. Nos encargamos de resolver conflictos sucesorios con un enfoque legal preciso y humano,
-                 asegurando que cada proceso se lleve a cabo con transparencia y conforme a la normativa vigente. Nuestro objetivo es brindarte tranquilidad y respaldo en cada etapa del proceso sucesorio.</p>
-            
+            <p className={styles.paragraph}>En el Estudio Marellano, contamos con especialistas en Derecho Sucesorio para asesorarte en la planificación y gestión de herencias. Brindamos asistencia en la tramitación judicial, redacción de testamentos, y partición de bienes, garantizando una transmisión patrimonial justa y segura. Nos encargamos de resolver conflictos sucesorios con un enfoque legal, preciso y humano, asegurando que cada proceso se lleve a cabo con transparencia y conforme a la normativa vigente. Nuestro objetivo es brindarte tranquilidad y acompañamiento en cada etapa del proceso sucesorio.
+            </p>
+
             </div>
             </div>
             
