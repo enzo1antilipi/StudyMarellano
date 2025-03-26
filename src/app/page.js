@@ -1,7 +1,14 @@
 import { IMAGES_MANIFEST } from "next/dist/shared/lib/constants";
 import Image from "next/image";
 import Link from "next/link";
+import {  Inter } from "next/font/google"
+
 // import styles from "./page.module.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: "400", // Extra Bold
+});
 
 export default function Home() {
   return (
@@ -18,6 +25,8 @@ export default function Home() {
             height={2000}
             priority
           />
+            <div className="overlay"></div>
+          <div   className={`text ${inter.className}`}>Estudio Juridico Marellanos y Asociados</div>
         </section>
 
         <section className="SectionPractice">
@@ -109,6 +118,15 @@ export default function Home() {
             <div className="cuadro2">
               <h3>Derecho inmobiliario</h3>
               <p>Te acompañamos en la gestión de bienes raíces, ofreciendo seguridad jurídica en...</p>
+              <div className="containerSeemore">
+              <Link href="/practice"  className="seeMore">
+                    Ver mas
+                </Link>
+                </div>
+            </div>
+            <div className="cuadro" style={{marginTop:"5px"}}>
+              <h3>Derecho inmobiliario</h3>
+              <p>Asesoramos y gestionamos sucesiones, herencias y testamentos asegurando...</p>
               <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
                     Ver mas

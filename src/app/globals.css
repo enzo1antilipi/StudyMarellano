@@ -193,11 +193,34 @@ border-radius: 5px;
     z-index: 999;
   }
   .containerImgHome{
-  height: 25vh;
+  height: 45vh;
+  width: auto;
   z-index: 12;
 }
 .imgLogo{
   z-index: 12;
+  width: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo oscuro con opacidad */
+  z-index: 13;
+}
+
+.text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  z-index: 14;
 }
 .container1 {
   z-index: 999;
