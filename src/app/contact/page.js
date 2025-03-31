@@ -15,10 +15,10 @@ export default function contact(){
             <div className={styles.img}>
                  <Image
                    className={styles.imgLogo}
-                    src="/telefono.jpg"
+                    src="/usuario2.jpg"
                     alt=""
                     width={250}
-                    height={200}
+                    height={250}
                     priority
                   />
             </div>

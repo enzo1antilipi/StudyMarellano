@@ -1,6 +1,12 @@
 :root {
-  --background: #ffffff;
+  background:#ececec;
+  
   --foreground: #171717;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
 }
 body{
   margin: 0;
@@ -19,8 +25,26 @@ body{
   position: relative;
   z-index: 1;
   width: 100%; /* La imagen ocupa un 80% del contenedor */
-  height: 100%; /* Mantiene las proporciones de la imagen */
+  height: auto; /* Mantiene las proporciones de la imagen */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Opcional: sombra */
+  top: 25%;
+}
+.text {
+  width: 70%;
+  position: absolute;
+  top: 35%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  text-align: start;
+  z-index: 14;
+}
+.parrafo{
+  font-size: 18px;
+  margin-top: -20px;
+  color: #8b8b8b;
+  font-style: italic;
 }
 .containerPractice{
   display: flex;
@@ -30,39 +54,50 @@ body{
   
 }
 .cuadro{
-  background:#4D3322;
+  background:#f8f8f8;
   padding: 5px;
   height: 250px;
-  color: white;
-  z-index: 9999;
+  color: rgb(0, 0, 0);
+  z-index: 999;
   max-width: 250px;
   display: flex;
   flex-direction: column;
   flex: 1;
-justify-content: space-between;
+  justify-content: space-between;
+  margin: 5px;
+  border-radius: 10px;
+  text-align: start;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
 .cuadro2{
-  background:#22120C ;
+  background:#f8f8f8;
   height: 250px;
   padding: 5px;
-  color: white;
-  z-index: 9999;
+  color: rgb(0, 0, 0);
+  z-index: 999;
   max-width: 250px;
    display: flex;
   flex-direction: column;
   flex: 1;
   justify-content: space-between;
+  margin: 5px;
+  border-radius: 10px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .sectionAbout{
   display: flex;
   width: 80%;
   margin: auto;  
-  height: 400px;
+  height: 60vh;
   margin-top: 80px;
   box-shadow: #171717;
 }
 .titleabout{
-  margin-top: 50px;
+  color: white !important;
+  margin-top: 5%;
+  background: #4D3322;
+  border-radius: 5px;
+  padding: 8px;
 }
 
 .aboutContainer1{
@@ -70,6 +105,8 @@ justify-content: space-between;
   max-width: 50%; /* Limita el ancho máximo a la mitad del contenedor */
   padding: 10px; /* Espaciado interno */
   box-sizing: border-box;
+  background:#f8f8f8;
+  
 
 }
 .SectionPractice{
@@ -102,38 +139,52 @@ border-radius: 5px;
   z-index: 999;
   width: 25%;
   height: 80%;
-  background-color: #939393;
+  background:#ececec;
   margin-left: 20px;
   border-radius: 5px;
 }
+.containerSeemore{
+  width: 30%;
+  border-radius: 10px;
+  padding: 6px;
+}
 .seeMore{
-  color: white;
+  color: rgb(7, 7, 7);
   align-self: flex-end;
-  
+  text-decoration: none;
 }
 .datosPhotos{
   margin-left: 6%;
 }
 .cuadro h3 {
-  font-family: 'Times New Roman', Times, serif;
-  margin-left: 5px;
+  text-align: center;
+  /* background: #4D3322; */
+  color: rgb(39, 39, 39);
+  border-radius: 5px;
+  padding: 5px;
+  font-style: italic;
 }
 .cuadro2 h3{
-  font-family: 'Times New Roman', Times, serif;
-    margin-left: 5px;
+  text-align: center;
+  /* background: #4D3322; */
+  color: rgb(39, 39, 39);
+  border-radius: 5px;
+  padding: 5px;
+  font-style: italic;
 }
 .cuadro  p{
-  font-family: 'Times New Roman', Times, serif;
   margin-left: 5px;
   min-height: 100px;
-  color: rgb(219, 219, 219);
+  color: rgb(49, 49, 49);
+  margin-top: -30px;
+  text-align: start;
 }
 .cuadro2  p{
-  font-family: 'Times New Roman', Times, serif;
   margin-left: 5px;
   min-height: 100px;
-  color: rgb(219, 219, 219);
-
+  color: rgb(49, 49, 49);
+  margin-top: -30px;
+  text-align: start;
 }
 
 .aboutContainer1 {
@@ -142,7 +193,6 @@ border-radius: 5px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 800px;
-  
   text-align: center;
 }
 
@@ -166,14 +216,11 @@ border-radius: 5px;
 .aboutContent p:first-of-type {
   font-weight: bold; /* Resaltar el primer párrafo */
 }
-.containerSeemore{
-  margin-bottom: 5%;
-}
+
 .mobile-version{
   display: none;
 }
 /* mobile */
-
 
 @media (max-width: 768px) {
   .mobile-version{
@@ -184,7 +231,7 @@ border-radius: 5px;
   }
   .containerPracticeMobile {
     grid-template-columns: repeat(2, 1fr); /* 1 columna en mobile */
-    width: 75%;
+    width: 85%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -192,14 +239,37 @@ border-radius: 5px;
     margin-top: 0px;
     z-index: 999;
   }
-  .containerImgHome{
-  height: 70vh;
-  width: auto;
-  z-index: 12;
+ .containerImgHome {
+  height: 90vh; /* Ocupa el 90% de la pantalla */
+  position: relative;
+  overflow: hidden; /* Oculta cualquier parte de la imagen que se salga */
 }
-.imgLogo{
-  z-index: 12;
-  width: auto;
+
+.imgLogo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Hace que la imagen se ajuste al tamaño del contenedor */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.text h1{
+  color: white;
+  font-size: 40px;
+  
+}
+.text {
+  top: 18%;
+  left:55% ;
+  width: 100%;
+  color: rgb(254, 254, 254);
+  font-size: 1rem;
+  text-align: start;
+  z-index: 14;
+}
+/* Hago esto para que no se muestr el parrafo */
+.text .parrafo{
+  display: none;
 }
 .overlay {
   position: absolute;
@@ -207,55 +277,54 @@ border-radius: 5px;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); /* Fondo oscuro con opacidad */
+  background-color: rgba(0, 0, 0, 0.3); /* Fondo oscuro con opacidad */
   z-index: 13;
 }
 
-.text {
-  width: 70%;
-  position: absolute;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-size: 2rem;
-  text-align: center;
-  z-index: 14;
-}
+
 .container1 {
   z-index: 999;
   
 }
 .cuadro {
-  height: 140px;
+  height: 200px;
   margin: 0%;
   max-width: none;
   border-radius: 8px;
 }
 .cuadro2{
-  height: 140px;
+  height: 200px;
   margin: 0%;
   max-width: none;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 8px;
 }
 .cuadro  p{
-  font-family: 'Times New Roman', Times, serif;
-  margin-left: 10px;
   min-height: 10px;
-  color: rgb(219, 219, 219);
+  color: rgb(49, 49, 49);
   margin-top: -10px;
 }
 .cuadro2 p{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-left: 10px;
+  padding: 10px;
   min-height: 10px;
-  color: rgb(219, 219, 219);
+  color: rgb(49, 49, 49);
   margin-top: -10px;
-
  }
+ .containerSeemore{
+  margin-bottom: 5%;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 4px;
+   text-align: start;
+
+}
  .seeMore{
-  margin-left: 10px;
+  text-decoration: none;
+    margin-left: 0px;
+    text-align: start;
+    padding: 5px;
  }
 }
 /* MEDIA QUERY PARA MOBILE */
@@ -285,7 +354,89 @@ border-radius: 5px;
     width: 80%;
     margin: auto;  
     height: 150px;
-    margin-top: 350px;
+    margin-top: 250px;
     box-shadow: #171717;
+  }
+}
+/* ---------------------------------------------------- */
+.sectionAboutAbogado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background:#ececec; 
+  min-height: 400px;
+}
+
+.containerImgAbout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 82%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-height: 300px;
+}
+
+.photoContainer {
+  flex: 1;
+  max-width: 250px;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.containerDescriptionAbout {
+  flex: 2;
+  padding: 0 20px;
+  background-color: white;
+}
+
+.abogadoNombre {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.abogadoDescripcion {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.matricula {
+  font-size: 14px;
+  color: #777;
+}
+
+.matriculaLink {
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.matriculaLink:hover {
+  text-decoration: underline;
+}
+
+/* 📱 RESPONSIVE: Ajuste para pantallas pequeñas */
+@media (max-width: 768px) {
+  .containerImgAbout {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .containerDescriptionAbout {
+    padding: 20px 0;
+    width: 80%;
+    
   }
 }

@@ -42,10 +42,10 @@ const toggleMenu=()=>{
                     ☰
                 </button>
                  <div className={`${styles.navLinks_container}  ${isMenuOpen ? styles.show : ""}`}>
-            <Link className={styles.navLink} href="/"  onClick={handleLinkClick}>INICIO</Link>
-            <Link className={styles.navLink} href="/practice"  onClick={handleLinkClick}>AREAS DE PRACTICA</Link>
-            <Link className={styles.navLink} href="/about" onClick={handleLinkClick}>NOSOTROS</Link>
-            <Link className={styles.navLink} href="/contact" onClick={handleLinkClick}>CONTACTO</Link>
+            <Link className={styles.navLink} href="/"  onClick={handleLinkClick}>Inicio</Link>
+            <Link className={styles.navLink} href="/practice"  onClick={handleLinkClick}>Areas de practica</Link>
+            <Link className={styles.navLink} href="/about" onClick={handleLinkClick}>Nosotros</Link>
+            <Link className={styles.navLink} href="/contact" onClick={handleLinkClick}>Contacto</Link>
             </div>
                  {/* <li>
                 <Link href="/" className={styles.navLink}>

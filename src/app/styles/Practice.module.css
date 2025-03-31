@@ -4,14 +4,14 @@
     background: #ba9b86;
     width: 70%;
     margin: auto;   
-    margin-top: 6%;
+    margin-top: 5%;
 }
 
 .sectionContainerPractice{
     width: 100%;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
+    margin-top: -40px;  
 }
 .containerGeneral{
     display: flex;
@@ -32,16 +32,18 @@
 .titleSectionDesktop{
     background: #4D3322;
     color: white;
-    padding: 10px;
+    padding: 8px;
     border-radius: 5px;
     width: 250px;
     text-align: center;
+    
 }
 .container{
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
+
 }
 .backgroundLogo{
     background: #4D3322;
@@ -134,6 +136,8 @@ width: 90%;
   align-items: center;
   padding: 20px; /* Espaciado interno */
   background-color: #f9f9f9; /* Fondo opcional */
+  border-radius: 10px;
+  margin-top: -10px;
 }
 
 .paragraph {
@@ -181,6 +185,9 @@ width: 90%;
   display: none;
 }
 @media (max-width: 768px) {
+  .sectionContainerPractice{
+    margin-top: 0px;
+  }
   .containerContact{
     display: none;
   }

@@ -1,8 +1,10 @@
+'use client'
+
 import { IMAGES_MANIFEST } from "next/dist/shared/lib/constants";
 import Image from "next/image";
 import Link from "next/link";
 import {  Inter } from "next/font/google"
-
+import {useState,useEffect}from 'react'
 // import styles from "./page.module.css";
 
 const inter = Inter({
@@ -11,6 +13,22 @@ const inter = Inter({
 });
 
 export default function Home() {
+
+    const [imageSrc, setImageSrc] = useState("/home_desktop.jpg"); // Imagen por defecto (desktop)
+
+  useEffect(() => {
+    const updateImage = () => {
+      if (window.innerWidth < 768) {
+        setImageSrc("/home_mobile.jpg"); // Imagen para mobile
+      } else {
+        setImageSrc("/home_desktop.jpg"); // Imagen para desktop
+      }
+    };
+
+    updateImage();
+    window.addEventListener("resize", updateImage);
+    return () => window.removeEventListener("resize", updateImage);
+  }, []);
   return (
     <div >
       <main >
@@ -19,31 +37,35 @@ export default function Home() {
          <section className="containerImgHome">
           <Image
            className="imgLogo"
-            src="/ley3.png"
+            src={imageSrc}
             alt=""
             width={2000}
             height={2000}
             priority
           />
-            <div className="overlay"></div>
-          <div   className={`text ${inter.className}`}>Estudio Juridico Marellanos y Asociados</div>
+            
+          <div   className={`text ${inter.className}`}><h1>Estúdio Jurídico <br/>Marellanos y Asociados</h1>
+          <p className="parrafo">Compromiso, experiencia y excelencia en cada caso. <br/>Defendemos tus derechos con integridad y dedicación </p>
+          </div>
         </section>
 
         <section className="SectionPractice">
           <div className="containerPractice">
             
             <div className="cuadro">
-              <h3>Familia</h3>
-              <p>Asesoramos en temas como divorcios, alimentos, tenencia y acuerdos familiares, ofreciendo soluciones personalizadas que priorizan el bienestar de los involucrados.</p>
+              <h3 >Familia</h3>
+              <p >Asesoramos en temas como divorcios, alimentos, tenencia y acuerdos familiares, ofreciendo soluciones personalizadas que priorizan el bienestar de los involucrados.</p>
               <div className="containerSeemore">
                <Link href="/practice"  className="seeMore">
+               <span className="vermas">
                     Ver mas
+                    </span>
                 </Link>
                 </div>
             </div>
             <div className="cuadro2">
               <h3>Civil y comercial</h3>
-              <p>Brindamos apoyo en contratos, transacciones comerciales y resolución de conflictos, protegiendo tus intereses y fortaleciendo la seguridad jurídica de tus proyectos.
+              <p className={inter.className} >Brindamos apoyo en contratos, transacciones comerciales y resolución de conflictos, protegiendo tus intereses y fortaleciendo la seguridad jurídica de tus proyectos.
                 </p>
                 <div className='containerSeemore'>
                   <Link href="/practice"  className="seeMore">
@@ -152,7 +174,7 @@ export default function Home() {
               Nuestro enfoque en el crecimiento humano y técnico nos permite garantizar un servicio responsable y de avanzada...
             </p>
             <p>Ver mas </p>
-    </div>
+           </div>
           </div>
           <div className="aboutContainer2">
             {/* imagen */}
@@ -167,10 +189,10 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="sectionAboutAbogado">
+        {/* <section className="sectionAboutAbogado">
           <div className="containerImgAbout">
              <div className="containerDescriptionAbout">
-            {/* descripcion  */}
+
             <h1>Foto</h1>
           </div>
           <div className="datosPhotos">
@@ -179,10 +201,30 @@ export default function Home() {
             
             <p>Numero de matricula link</p>
           </div>
-            {/* imagen */}
+
           </div>
 
-        </section>
+        </section> */}
+        <section className="sectionAboutAbogado">
+            <div className="containerImgAbout">
+              {/* Imagen del abogado */}
+              <div className="photoContainer">
+                <img src="/ley2.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
+              </div>
+
+              {/* Descripción */}
+              <div className="containerDescriptionAbout">
+                <h1 className="abogadoNombre">Dr. Arellano Larrosa Marcos</h1>
+                <p className="abogadoDescripcion">
+                  Abogado especializado en derecho civil y penal con más de 15 años de experiencia.
+                </p>
+                <p className="matricula">
+                  Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink">123456</a>
+                </p>
+              </div>
+            </div>
+          </section>
+
       </main>
     </div>
   );
