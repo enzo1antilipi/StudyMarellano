@@ -32,7 +32,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     width: 50%;
+}
+.description h1{
+    font-size: 50px;
 }
 .paragraph{
     font-size: 18px;
@@ -60,10 +64,18 @@
         text-align: center;
         width: 100%;
         margin-top: 2px;
+        height: 80vh;
     }
-
+    .imgLogo {
+        margin-top: 30px;
+    max-height: 300px; /* Reduce la altura en móviles */
+    object-fit: cover; /* Se ajusta al contenedor, recortando si es necesario */
+  }
     .description {
         width: 100%;
+    }
+    .description h1{
+        font-size: 30px;
     }
     .img{
         width: 80%;
@@ -71,6 +83,7 @@
         margin-top: -8%;
     }
     .paragraphContainer{
-        margin-top: 90px;
+        margin-top: 60px;
+        width: 80%;
     }
 }
