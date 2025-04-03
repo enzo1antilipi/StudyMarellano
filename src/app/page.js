@@ -44,7 +44,7 @@ export default function Home() {
             priority
           />
             
-          <div   className={`text ${inter.className}`}><h1>Estúdio Jurídico <br/>Marellanos y Asociados</h1>
+          <div   className={`text ${inter.className}`}><h1>Estudio Jurídico <br/>Marellano y Asociados</h1>
           <p className="parrafo">Compromiso, experiencia y excelencia en cada caso. <br/>Defendemos tus derechos con integridad y dedicación </p>
           </div>
         </section>
