@@ -1,5 +1,5 @@
 import styles from '../styles/Footer.module.css'
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin,FaWhatsapp } from "react-icons/fa";
 
 export default function Footer(){
 
@@ -11,6 +11,9 @@ export default function Footer(){
         <div className={styles.social}>
           <h3>Contáctanos</h3>
           <div className={styles.icons}>
+            <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer">
+                <FaWhatsapp />
+              </a>
             <a href="#" target="_blank" rel="noopener noreferrer">
                <FaFacebook />
             </a>
@@ -23,7 +26,7 @@ export default function Footer(){
           </div>
         </div>
          <div className={styles.info}>
-          <h2>Estudio Jurídico Marellanos y Asociados</h2>
+          <h2>Estudio Jurídico Marellano y Asociados</h2>
         </div>
       </div>
 
