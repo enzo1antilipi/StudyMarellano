@@ -184,6 +184,9 @@ width: 90%;
 .contenendorMobil{
   display: none;
 }
+.container_btt_mobile{
+  display: none;
+}
 @media (max-width: 768px) {
   .sectionContainerPractice{
     margin-top: 0px;
@@ -226,5 +229,31 @@ width: 90%;
     margin: auto;
     width: 90%;
   }
+
+
+   .container_btt_mobile {
+    display: block;
+    position: fixed; /* Fija el contenedor a una posición en la pantalla */
+    bottom: 9%; /* Ajusta la distancia desde la parte inferior (puedes modificar este valor) */
+    left: 45%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Corrige el desplazamiento debido al 'left' */
+    width: 80%; /* Ajusta el ancho del contenedor */
+    z-index: 1000; /* Asegúrate de que el botón esté por encima de otros elementos */
+}
+
+.button_mobile {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-color: #169748;
+    color: #f1f1f1;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añade un poco de sombra para destacar */
+}
+  .icons_whatsapp{
+    color: #f1f1f1;
+  }
   
 }
+
