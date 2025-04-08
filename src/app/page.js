@@ -45,7 +45,7 @@ export default function Home() {
           />
             
           <div   className={`text ${inter.className}`}><h1>Estudio Jurídico <br/>Marellano y Asociados</h1>
-          <p className="parrafo">Compromiso, experiencia y excelencia en cada caso. <br/>Defendemos tus derechos con integridad y dedicación </p>
+          <p className="parrafo">Compromiso, experiencia y excelencia en cada caso. <br/>Defendemos tus derechos con integridad y dedicación.</p>
           </div>
         </section>
 
@@ -58,18 +58,18 @@ export default function Home() {
               <div className="containerSeemore">
                <Link href="/practice"  className="seeMore">
                <span className="vermas">
-                    Ver mas
+                    Ver más
                     </span>
                 </Link>
                 </div>
             </div>
             <div className="cuadro2">
-              <h3>Civil y comercial</h3>
+              <h3>Civil y Comercial</h3>
               <p className={inter.className} >Brindamos apoyo en contratos, transacciones comerciales y resolución de conflictos, protegiendo tus intereses y fortaleciendo la seguridad jurídica de tus proyectos.
                 </p>
                 <div className='containerSeemore'>
                   <Link href="/practice"  className="seeMore">
-                    Ver mas
+                    Ver más
                 </Link>
                 </div>
             </div>
@@ -80,7 +80,7 @@ export default function Home() {
               <p>Defendemos los derechos de trabajadores y empleadores, gestionando reclamos por despidos, indemnizaciones y conflictos laborales con profesionalismo y equidad.</p>
                  <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
-                    Ver mas
+                    Ver más
                 </Link>
                 </div>
             </div>
@@ -89,7 +89,7 @@ export default function Home() {
               <p>Te acompañamos en la gestión de bienes raíces, ofreciendo seguridad jurídica en compraventas, alquileres y sucesiones, protegiendo tu patrimonio en cada operación.</p>
               <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
-                    Ver mas
+                    Ver más
                 </Link>
                 </div>
             </div>
@@ -98,7 +98,7 @@ export default function Home() {
               <p>Asesoramos y gestionamos sucesiones, herencias y testamentos, asegurando una distribución justa del patrimonio con transparencia y seguridad jurídica.</p>
                  <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
-                    Ver mas
+                    Ver más
                 </Link>
                 </div>
             </div>
@@ -112,17 +112,17 @@ export default function Home() {
               <p>Asesoramos en temas como divorcios, alimentos, tenencia y acuerdos familiares, ofreciendo...</p>
               <div className="containerSeemore">
                <Link href="/practice"  className="seeMore">
-                    Ver mas
+                    Ver más
                 </Link>
                 </div>
             </div>
             <div className="cuadro2">
-              <h3>Civil y comercial</h3>
+              <h3>Civil y Comercial</h3>
               <p>Brindamos apoyo en contratos, transacciones comerciales y resolución de conflictos...
                 </p>
                 <div className='containerSeemore'>
                   <Link href="/practice"  className="seeMore">
-                    Ver mas
+                    Ver más
                 </Link>
                 </div>
             </div>
@@ -133,7 +133,7 @@ export default function Home() {
               <p>Defendemos los derechos de trabajadores y empleadores, gestionando reclamos por...</p>
                  <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
-                    Ver mas
+                    Ver más
                 </Link>
                 </div>
             </div>
@@ -142,7 +142,7 @@ export default function Home() {
               <p>Te acompañamos en la gestión de bienes raíces, ofreciendo seguridad jurídica en...</p>
               <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
-                    Ver mas
+                    Ver más
                 </Link>
                 </div>
             </div>
@@ -151,7 +151,7 @@ export default function Home() {
               <p>Asesoramos y gestionamos sucesiones, herencias y testamentos asegurando...</p>
               <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
-                    Ver mas
+                    Ver más
                 </Link>
                 </div>
             </div>
@@ -173,7 +173,7 @@ export default function Home() {
             <p>
               Nuestro enfoque en el crecimiento humano y técnico nos permite garantizar un servicio responsable y de avanzada...
             </p>
-            <p>Ver mas </p>
+            <p>Ver más </p>
            </div>
           </div>
           <div className="aboutContainer2">
