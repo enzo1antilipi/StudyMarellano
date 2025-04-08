@@ -147,7 +147,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="cuadro" style={{marginTop:"5px"}}>
-              <h3>Derecho inmobiliario</h3>
+              <h3>Derecho sucesorio</h3>
               <p>Asesoramos y gestionamos sucesiones, herencias y testamentos asegurando...</p>
               <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
