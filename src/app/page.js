@@ -173,7 +173,12 @@ export default function Home() {
             <p>
               Nuestro enfoque en el crecimiento humano y técnico nos permite garantizar un servicio responsable y de avanzada...
             </p>
-            <p>Ver más </p>
+             <Link href="/about"  className="seeMore">
+               <span className="vermas">
+                    Ver más
+                    </span>
+                </Link>
+                
            </div>
           </div>
           <div className="aboutContainer2">
@@ -217,7 +222,8 @@ export default function Home() {
               <div className="containerDescriptionAbout">
                 <h1 className="abogadoNombre">Dr. Arellano Larrosa Marcos</h1>
                 <p className="abogadoDescripcion">
-                  Abogado especializado en derecho civil y penal con más de 15 años de experiencia.
+                  Profesional con experiencia en derecho civil comercial e inmobiliario , 15 años de experiencia en docencia.
+Experiencia en corretaje y martillero comercial.
                 </p>
                 <p className="matricula">
                   Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink">M-603 CPAPM</a>
@@ -226,25 +232,7 @@ export default function Home() {
               
               
             </div>
-            <div className="containerImgAbout">
-              {/* Imagen del abogado */}
-              <div className="photoContainer">
-                <img src="/usuario2.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
-              </div>
-
-              {/* Descripción */}
-              <div className="containerDescriptionAbout">
-                <h1 className="abogadoNombre">Dra. Rocio Bahamonde Diaz </h1>
-                <p className="abogadoDescripcion">
-                  Abogado especializado en derecho civil y penal con más de 15 años de experiencia.
-                </p>
-                <p className="matricula">
-                  Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink"> M-551 CPAPM</a>
-                </p>
-              </div>
-              
-              
-            </div>
+            
              </div>
               <div className="row1">
             <div className="containerImgAbout">
@@ -296,12 +284,31 @@ export default function Home() {
               <div className="containerDescriptionAbout">
                 <h1 className="abogadoNombre">Dr. Lucas Cuis Braga</h1>
                 <p className="abogadoDescripcion">
-                  Abogado especializado en derecho civil y penal con más de 15 años de experiencia.
+                  Profesional egresado en la UBA con trayectoria en derecho penal, civil y comercial.
                 </p>
                 <p className="matricula">
                   Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink">M-556 CPAPM</a>
                 </p>
               </div>
+              
+            </div>
+            <div className="containerImgAbout">
+              {/* Imagen del abogado */}
+              <div className="photoContainer">
+                <img src="/usuario2.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
+              </div>
+
+              {/* Descripción */}
+              <div className="containerDescriptionAbout">
+                <h1 className="abogadoNombre">Dra. Rocio Bahamonde Diaz </h1>
+                <p className="abogadoDescripcion">
+                  Abogado especializado en derecho civil y penal con más de 15 años de experiencia.
+                </p>
+                <p className="matricula">
+                  Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink"> M-551 CPAPM</a>
+                </p>
+              </div>
+              
               
             </div>
               </div>
