@@ -178,7 +178,7 @@ export default function Home() {
                     Ver más
                     </span>
                 </Link>
-                
+
            </div>
           </div>
           <div className="aboutContainer2">
@@ -238,7 +238,7 @@ Experiencia en corretaje y martillero comercial.
             <div className="containerImgAbout">
               {/* Imagen del abogado */}
               <div className="photoContainer">
-                <img src="/usuario2.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
+                <img src="/juan.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
               </div>
 
               {/* Descripción */}
@@ -277,7 +277,7 @@ Experiencia en corretaje y martillero comercial.
               <div className="containerImgAbout">
               {/* Imagen del abogado */}
               <div className="photoContainer">
-                <img src="/usuario2.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
+                <img src="/cuis.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
               </div>
 
               {/* Descripción */}
