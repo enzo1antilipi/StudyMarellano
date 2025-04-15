@@ -215,7 +215,7 @@ export default function Home() {
             <div className="containerImgAbout">
               {/* Imagen del abogado */}
               <div className="photoContainer">
-                <img src="/usuario2.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
+                <img src="/marcos.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
               </div>
 
               {/* Descripción */}
@@ -223,7 +223,7 @@ export default function Home() {
                 <h1 className="abogadoNombre">Dr. Arellano Larrosa Marcos</h1>
                 <p className="abogadoDescripcion">
                   Profesional con experiencia en derecho civil comercial e inmobiliario , 15 años de experiencia en docencia.
-Experiencia en corretaje y martillero comercial.
+                  Experiencia en corretaje y martillero comercial.
                 </p>
                 <p className="matricula">
                   Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink">M-603 CPAPM</a>
