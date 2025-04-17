@@ -376,7 +376,7 @@ border-radius: 5px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  min-height: 300px;
+  min-height: 180px;
   margin: 10px;
 }
 .row1{
@@ -388,6 +388,8 @@ border-radius: 5px;
 .photoContainer {
   flex: 1;
   max-width: 250px;
+  height:100% ;
+
 }
 
 .photo {
@@ -395,8 +397,11 @@ border-radius: 5px;
   height: auto;
   border-radius: 10px;
   object-fit: cover;
+   transition: transform 0.3s ease-in-out; /* transiciones suaves */
 }
-
+.photo:hover{
+  transform: scale(1.08); /* Aumenta el tamaño al pasar el mouse */
+}
 .containerDescriptionAbout {
   flex: 2;
   padding: 0 20px;
@@ -437,13 +442,13 @@ border-radius: 5px;
     align-items: center;
     text-align: center;
     width: 80%;
-    height: 100px;
+    height: auto;
   }
 
   .containerDescriptionAbout {
-    padding: 20px ;
+    padding: 10px ;
     width: 80%;
-    height: 30px;
+    height: 20px;
     
   }
    .sectionAboutAbogado{
@@ -458,10 +463,11 @@ border-radius: 5px;
     flex-direction: column;
   }
   .photoContainer{
-    height: 30px;
+    width: 50%;
+
   }
   .photo{
-    height: 100px;
+    height: 200px;
   }
   .abogadoDescripcion{
     display: none;

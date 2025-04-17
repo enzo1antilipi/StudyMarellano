@@ -257,7 +257,7 @@ export default function Home() {
             <div className="containerImgAbout">
               {/* Imagen del abogado */}
               <div className="photoContainer">
-                <img src="/usuario2.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
+                <img src="/gonzalo.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo" />
               </div>
 
               {/* Descripción */}
@@ -295,7 +295,7 @@ export default function Home() {
             <div className="containerImgAbout">
               {/* Imagen del abogado */}
               <div className="photoContainer">
-                <img src="/usuario2.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
+                <img src="/rocio.jpg" alt="Dr. Arellano Larrosa Marcos" className="photo"/>
               </div>
 
               {/* Descripción */}
