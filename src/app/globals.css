@@ -27,7 +27,7 @@ body{
   width: 100%; /* La imagen ocupa un 80% del contenedor */
   height: auto; /* Mantiene las proporciones de la imagen */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Opcional: sombra */
-  top: 25%;
+  top: 33%;
 }
 .text {
   width: 70%;
@@ -56,10 +56,10 @@ body{
 .cuadro{
   background:#f8f8f8;
   padding: 5px;
-  height: 250px;
+  height: 220px;
   color: rgb(0, 0, 0);
   z-index: 999;
-  max-width: 250px;
+  max-width: 220px;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -71,11 +71,11 @@ body{
   }
 .cuadro2{
   background:#f8f8f8;
-  height: 250px;
+  height: 220px;
   padding: 5px;
   color: rgb(0, 0, 0);
   z-index: 999;
-  max-width: 250px;
+  max-width: 220px;
    display: flex;
   flex-direction: column;
   flex: 1;
@@ -88,7 +88,7 @@ body{
   display: flex;
   width: 80%;
   margin: auto;  
-  height: 60vh;
+  height: 70vh;
   margin-top: 80px;
   box-shadow: #171717;
 }
@@ -98,6 +98,7 @@ body{
   background: #4D3322;
   border-radius: 5px;
   padding: 8px;
+  font-size: 20px;
 }
 
 .aboutContainer1{
@@ -105,7 +106,7 @@ body{
   max-width: 50%; /* Limita el ancho máximo a la mitad del contenedor */
   padding: 10px; /* Espaciado interno */
   box-sizing: border-box;
-  background:#f8f8f8;
+  background:white;
   
 
 }
@@ -115,18 +116,22 @@ body{
 .aboutContainer2{
   height: 100%;
    flex: 1; /* Cada contenedor ocupa el mismo espacio disponible */
-  max-width: 50%; /* Limita el ancho máximo a la mitad del contenedor */
+  max-width: 49%; /* Limita el ancho máximo a la mitad del contenedor */
   box-sizing: border-box;
+  background: white;
+
+  justify-content: center;
+  align-items: center;
 
 }
 .imgAbout{
-   width: 100%; 
-  height: 100%; /* Mantiene las proporciones de la imagen */
+   width: 44%; 
+  height: 44%; /* Mantiene las proporciones de la imagen */
   border-radius: 5px; /* Opcional: esquinas redondeadas */
   object-fit: cover; /* Asegura que la imagen se ajuste correctamente */
   
 }
-.containerImgAbout{
+.containerImagenAbout{
 width: 100%;
 z-index: 1;
 display: flex;
@@ -152,6 +157,7 @@ border-radius: 5px;
   color: rgb(7, 7, 7);
   align-self: flex-end;
   text-decoration: none;
+  font-size: 15px;
 }
 .datosPhotos{
   margin-left: 6%;
@@ -191,19 +197,20 @@ border-radius: 5px;
   height: 100%;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 800px;
   text-align: center;
 }
 
 .titleabout {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #8a5a44; /* Un tono marrón cálido */
   margin-bottom: 1rem;
+  
 }
 .paragrphAbout{
   text-align: start;
+  
 }
 
 .aboutContent p {
@@ -332,24 +339,41 @@ border-radius: 5px;
   .sectionAbout {
     flex-direction: column; /* Cambia a columna en mobile */
     text-align: center;
+    width: 85%;
+    margin: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 60px;
   }
 
   .aboutContainer2 {
-    order: -1; /* Mueve la imagen arriba */
+    order: -1; 
   }
   .aboutContainer2{
     width: 100%;
     max-width: none;
+    flex: none;
+    height: 200px!important;
+    padding: 10px;
   }
   .aboutContainer1{
     max-width: none;
     height: auto;
+    background: white !important; 
+    border-radius: 0px;
   }
   .imgAbout{
-    width: 100%;
+    width: 40%;
+    height: 50%; /* Mantiene las proporciones de la imagen */
     max-width: none;
   }
- 
+ .containerImagenAbout{
+  margin: auto;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  border-radius: 20px !important;
+ }
 }
 /* ---------------------------------------------------- */
 .sectionAboutAbogado {
@@ -437,39 +461,87 @@ border-radius: 5px;
 
 /* 📱 RESPONSIVE: Ajuste para pantallas pequeñas */
 @media (max-width: 768px) {
-  .containerImgAbout {
-    flex-direction: column;
+  /* .containerImgAbout {
+
     align-items: center;
-    text-align: center;
-    width: 80%;
+    
+    width: 95%;
     height: auto;
+    margin:0 auto;
   }
 
   .containerDescriptionAbout {
     padding: 10px ;
     width: 80%;
-    height: 20px;
     
   }
    .sectionAboutAbogado{
     display: flex;
-    width: 80%;
-    margin: auto;  
+    width: 90%;
+    margin: 0 auto;  
     height: auto;
-    margin-top: 65%;
+    margin-top: 20%;
     box-shadow: #171717;
+    margin: auto;
+  }
+  .abogadoNombre{
+    font-size: 20px;
   }
   .row1{
+    display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    max-width: 100%;
   }
   .photoContainer{
-    width: 50%;
+    width: 80%;
 
   }
   .photo{
-    height: 200px;
+    height: 250px;
+    width: 180px;
   }
   .abogadoDescripcion{
     display: none;
+    max-width: 100%;
+  } */
+.sectionAboutAbogado{
+  width: 95%;
+}
+  .row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos */
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .containerImgAbout {
+    width: 100%;
+    max-width: 100%; /* o lo que consideres apropiado */
+    box-sizing: border-box;
+  }
+
+  .photoContainer img {
+    height: auto;
+    display: block;
+  }
+  .photo{
+    height: 250px;
+    width: 180px;
+  }
+  .abogadoDescripcion{
+    display: none;
+  }
+  .abogadoNombre{
+    font-size: 20px;
+  }
+  .containerDescriptionAbout {
+    padding: 5px;
+    width: 100%;
+    margin-left: 10px;
   }
 }

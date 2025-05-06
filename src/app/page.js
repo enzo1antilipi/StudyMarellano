@@ -54,7 +54,7 @@ export default function Home() {
             
             <div className="cuadro">
               <h3 >Familia</h3>
-              <p >Asesoramos en temas como divorcios, alimentos, tenencia y acuerdos familiares, ofreciendo soluciones personalizadas que priorizan el bienestar de los involucrados.</p>
+              <p >Asesoramos en temas como divorcios, alimentos, tenencia y acuerdos familiares, ofreciendo soluciones...</p>
               <div className="containerSeemore">
                <Link href="/practice"  className="seeMore">
                <span className="vermas">
@@ -65,7 +65,7 @@ export default function Home() {
             </div>
             <div className="cuadro2">
               <h3>Civil y Comercial</h3>
-              <p className={inter.className} >Brindamos apoyo en contratos, transacciones comerciales y resolución de conflictos, protegiendo tus intereses y fortaleciendo la seguridad jurídica de tus proyectos.
+              <p className={inter.className} >Brindamos apoyo en contratos, transacciones comerciales y resolución de conflictos, protegiendo tus intereses y ...
                 </p>
                 <div className='containerSeemore'>
                   <Link href="/practice"  className="seeMore">
@@ -77,7 +77,7 @@ export default function Home() {
             
             <div className="cuadro">
               <h3>Laboral</h3>
-              <p>Defendemos los derechos de trabajadores y empleadores, gestionando reclamos por despidos, indemnizaciones y conflictos laborales con profesionalismo y equidad.</p>
+              <p>Defendemos los derechos de trabajadores y empleadores, gestionando reclamos por despidos, indemnizaciones ...</p>
                  <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
                     Ver más
@@ -86,7 +86,7 @@ export default function Home() {
             </div>
             <div className="cuadro2">
               <h3>Derecho inmobiliario</h3>
-              <p>Te acompañamos en la gestión de bienes raíces, ofreciendo seguridad jurídica en compraventas, alquileres y sucesiones, protegiendo tu patrimonio en cada operación.</p>
+              <p>Te acompañamos en la gestión de bienes raíces, ofreciendo seguridad jurídica en compraventas, alquileres y sucesiones...</p>
               <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
                     Ver más
@@ -95,7 +95,7 @@ export default function Home() {
             </div>
             <div className="cuadro">
               <h3>Derecho sucesorio</h3>
-              <p>Asesoramos y gestionamos sucesiones, herencias y testamentos, asegurando una distribución justa del patrimonio con transparencia y seguridad jurídica.</p>
+              <p>Asesoramos y gestionamos sucesiones, herencias y testamentos, asegurando una distribución justa del patrimonio ...</p>
                  <div className="containerSeemore">
               <Link href="/practice"  className="seeMore">
                     Ver más
@@ -161,18 +161,17 @@ export default function Home() {
         </section>
 
         <section className="sectionAbout">
+          <div className="containerImagenAbout">
           <div className="aboutContainer1">
-          <h2 className="titleabout">Sobre Nosotros</h2>
+          <h3 className="titleabout">Sobre Nosotros</h3>
           <div className="paragrphAbout">
-           <p>
+           <p className={inter.className}>
               Somos una firma legal comprometida con brindar asesoramiento de calidad, adaptándonos a las necesidades cambiantes de nuestros clientes y la comunidad. 
             </p>
             <p>
               Nos especializamos en Derecho Laboral, Civil y la validación de sentencias extranjeras, ofreciendo soluciones personalizadas, eficientes y confidenciales. 
             </p>
-            <p>
-              Nuestro enfoque en el crecimiento humano y técnico nos permite garantizar un servicio responsable y de avanzada...
-            </p>
+            
              <Link href="/about"  className="seeMore">
                <span className="vermas">
                     Ver más
@@ -185,12 +184,36 @@ export default function Home() {
             {/* imagen */}
                <Image
                   className="imgAbout"
+                  style={{marginLeft:"50px"}}
                   src="/ley1.jpg"
                   alt=""
                   width={1000}
                   height={1000}
                   priority
+                />  <Image
+                  className="imgAbout"
+                  src="/ley3.jpg"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  priority
+                />  <Image
+                  className="imgAbout"
+                   style={{marginLeft:"-50px"}}
+                  src="/ley4.jpg"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  priority
+                />  <Image
+                  className="imgAbout"
+                  src="/ley5.jpg"
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  priority
                 />
+          </div>
           </div>
         </section>
 
