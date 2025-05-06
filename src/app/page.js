@@ -184,7 +184,7 @@ export default function Home() {
             {/* imagen */}
                <Image
                   className="imgAbout"
-                  style={{marginLeft:"50px"}}
+                  style={{marginLeft:"30px"}}
                   src="/ley1.jpg"
                   alt=""
                   width={1000}
@@ -199,7 +199,7 @@ export default function Home() {
                   priority
                 />  <Image
                   className="imgAbout"
-                   style={{marginLeft:"-50px"}}
+                   style={{marginLeft:"-30px"}}
                   src="/ley4.jpg"
                   alt=""
                   width={1000}
