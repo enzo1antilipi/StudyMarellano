@@ -268,7 +268,7 @@ export default function Home() {
               <div className="containerDescriptionAbout">
                 <h1 className="abogadoNombre">Dr. Juan Manuel Lanciotti Roberts</h1>
                 <p className="abogadoDescripcion">
-                  Abogado especializado en derecho civil y penal con más de 15 años de experiencia.
+                  Abogado especializado en derecho civil y penal con experiencia.
                 </p>
                 <p className="matricula">
                   Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink"> M-510 CPAPM</a>
@@ -287,7 +287,7 @@ export default function Home() {
               <div className="containerDescriptionAbout">
                 <h1 className="abogadoNombre">Dr. Gonzalo Garcia Almiron</h1>
                 <p className="abogadoDescripcion">
-                  Abogado especializado en derecho civil y penal con más de 15 años de experiencia.
+                  Abogado especializado en derecho civil y penal con  experiencia.
                 </p>
                 <p className="matricula">
                   Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink">M-504 CPAPM</a>
@@ -325,7 +325,7 @@ export default function Home() {
               <div className="containerDescriptionAbout">
                 <h1 className="abogadoNombre">Dra. Rocio Bahamonde Diaz </h1>
                 <p className="abogadoDescripcion">
-                  Abogado especializado en derecho civil y penal con más de 15 años de experiencia.
+                  Abogado especializado en derecho civil y penal con  experiencia.
                 </p>
                 <p className="matricula">
                   Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink"> M-551 CPAPM</a>

@@ -11,7 +11,7 @@ export default function Footer(){
         <div className={styles.social}>
           <h3>Contáctanos</h3>
           <div className={styles.icons}>
-            <a href="https://wa.me/5492804969326" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5492804603334" target="_blank" rel="noopener noreferrer">
                 <FaWhatsapp />
               </a>
             <a href="#" target="_blank" rel="noopener noreferrer">
