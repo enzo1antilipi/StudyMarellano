@@ -246,7 +246,7 @@ export default function Home() {
                 <h1 className="abogadoNombre">Dr. Arellano Larrosa Marcos</h1>
                 <p className="abogadoDescripcion">
                   Profesional con experiencia en derecho civil comercial e inmobiliario , 15 años de experiencia en docencia.
-                  Experiencia en corretaje y martillero comercial.
+                  Experiencia en corretaje y martillero publico.
                 </p>
                 <p className="matricula">
                   Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink">M-603 CPAPM</a>
@@ -268,7 +268,7 @@ export default function Home() {
               <div className="containerDescriptionAbout">
                 <h1 className="abogadoNombre">Dr. Juan Manuel Lanciotti Roberts</h1>
                 <p className="abogadoDescripcion">
-                  Abogado especializado en derecho civil y penal con experiencia.
+                Abogado con sólida experiencia en litigios civiles y penales .
                 </p>
                 <p className="matricula">
                   Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink"> M-510 CPAPM</a>
@@ -287,7 +287,7 @@ export default function Home() {
               <div className="containerDescriptionAbout">
                 <h1 className="abogadoNombre">Dr. Gonzalo Garcia Almiron</h1>
                 <p className="abogadoDescripcion">
-                  Abogado especializado en derecho civil y penal con  experiencia.
+                Especialista en derecho civil y penal, comprometido con la defensa de sus clientes.
                 </p>
                 <p className="matricula">
                   Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink">M-504 CPAPM</a>
@@ -325,7 +325,7 @@ export default function Home() {
               <div className="containerDescriptionAbout">
                 <h1 className="abogadoNombre">Dra. Rocio Bahamonde Diaz </h1>
                 <p className="abogadoDescripcion">
-                  Abogado especializado en derecho civil y penal con  experiencia.
+                Profesional del derecho con trayectoria en causas civiles y penales complejas.
                 </p>
                 <p className="matricula">
                   Número de matrícula: <a href="https://colegioabogados.com" target="_blank" className="matriculaLink"> M-551 CPAPM</a>
